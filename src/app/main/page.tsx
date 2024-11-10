@@ -1,4 +1,4 @@
-"use client"
+'use client';
 import * as React from 'react';
 
 import { Stack } from '@mui/material';
@@ -6,14 +6,7 @@ import { Stack } from '@mui/material';
 import SideBar from '@/components/sideBar';
 import MainContent from '@/components/mainContent';
 import BottomBar from '@/components/bottomBar';
-
-export type MainContentOptions = 'all' | 'camera' | 'sensors' | 'communication';
-export const mainContentOptions: MainContentOptions[] = [
-  'all',
-  'camera',
-  'sensors',
-  'communication',
-];
+import { mainContentOptions, MainContentOptions } from '@/components/common';
 
 export default function About() {
   const [sideBarExpanded, setSideBarExpanded] = React.useState(false);

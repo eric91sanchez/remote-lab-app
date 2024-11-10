@@ -1,7 +1,4 @@
 ## Generals
-1. Add linter
-2. Add some unit test structure
-3. Add type check
 
 ## Backend
 1. USB camera connection

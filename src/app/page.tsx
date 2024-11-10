@@ -1,4 +1,4 @@
-"use client"
+'use client';
 import * as React from 'react';
 
 import { Box } from '@mui/material';
@@ -9,8 +9,13 @@ import Link from '@mui/material/Link';
 import NextLink from 'next/link';
 
 export default function Home() {
+  const asd = (b: number) => {
+    console.log('asd', b);
+  };
+
   React.useEffect(() => {
     console.log('> Home page mounted');
+    asd(1);
     return () => {
       console.log('> Home page unmounted');
     };
@@ -20,6 +25,7 @@ export default function Home() {
     <Container maxWidth="md" sx={{ height: '100vh' }}>
       <Box
         sx={{
+
           display: 'flex',
           flexDirection: 'column',
           justifyContent: 'center',

@@ -2,9 +2,9 @@ import * as React from 'react';
 
 import { Stack } from '@mui/material';
 
-import { MainContentOptions } from '@/app/main/page';
 import CameraCard from '../common/cameraCard';
 import SensorsCard from '../common/sensorsCard';
+import { MainContentOptions } from '../common';
 
 export interface MainContentProps {
   mainContentOption: MainContentOptions,

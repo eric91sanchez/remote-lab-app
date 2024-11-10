@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "type-check": "tsc"
   },
   "dependencies": {
     "@emotion/cache": "^11.13.1",
@@ -21,11 +22,15 @@
     "react-dom": "^18"
   },
   "devDependencies": {
+    "@eslint/js": "^9.14.0",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
-    "eslint": "^8",
+    "eslint": "^8.57.1",
     "eslint-config-next": "14.2.13",
-    "typescript": "^5"
+    "eslint-plugin-react": "^7.37.2",
+    "globals": "^15.12.0",
+    "typescript": "^5",
+    "typescript-eslint": "^8.13.0"
   }
 }

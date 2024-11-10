@@ -11,8 +11,7 @@ import GridViewOutlinedIcon from '@mui/icons-material/GridViewOutlined';
 import PauseCircleOutlineOutlinedIcon from '@mui/icons-material/PauseCircleOutlineOutlined';
 
 import theme from '@/theme';
-
-import { MainContentOptions } from '@/app/main/page';
+import { MainContentOptions } from '../common';
 
 export interface SideBarProps {
   sideBarExpanded: boolean,
@@ -42,6 +41,7 @@ function SideBar({
         direction="row"
         spacing={1}
         sx={{
+
           width: '33%',
           borderRadius: 2,
           background: theme.palette.background.paper,
